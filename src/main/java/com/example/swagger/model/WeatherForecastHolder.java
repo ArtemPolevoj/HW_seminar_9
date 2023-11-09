@@ -84,16 +84,6 @@ public class WeatherForecastHolder {
         return values;
     }
 
-    public static void main(String[] args) {
-        WeatherForecastHolder weatherForecastHolder = new WeatherForecastHolder();
-        System.out.println(weatherForecastHolder.add("2000-10-10", 15));
-        System.out.println(weatherForecastHolder.add("2023-10-10", 10));
-        System.out.println(weatherForecastHolder.getValues());
-        System.out.println(weatherForecastHolder.updateTemperature("2000-10-10", 20));
-        System.out.println(weatherForecastHolder.getValues());
-    }
-
-
     private Date getDate(String date) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         try {

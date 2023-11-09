@@ -13,7 +13,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(
                         new Info()
-                                .title("Loyalty System Api")
+                                .title("Temperature System Api")
                                 .version("1.0.0")
                                 .contact(
                                         new Contact()
